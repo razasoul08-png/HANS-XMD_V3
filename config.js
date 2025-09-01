@@ -8,13 +8,13 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'HansTz&TgRnHRAa#yi3LE5h1HL5Zy4v-dHV26AyR7WoaYnY_G4MCtfpygzo',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "HANS-XMD",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " 263717087382",              
+    OWNER_NAME: process.env.OWNER_NAME || "Tech-XMD",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "923366803473",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'HANS-XMD',
+    BOT : process.env.BOT_NAME || 'tech-XMD',
     URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/mn835l.jpg',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
@@ -23,7 +23,7 @@ module.exports = { session: process.env.SESSION_ID || '',
     ETAT : process.env.PRESENCE || '',
     CHATBOT : process.env.CHATBOT || 'off',
     AUTOREACT_STATUS : process.env.AUTOREACT_STATUS || 'on',
-    DP : process.env.STARTING_BOT_MESSAGE || "yes",
+    DP : process.env.STARTING_BOT_MESSAGE || "no",
     ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
